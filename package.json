@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Node project from the odin project",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index"
@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
